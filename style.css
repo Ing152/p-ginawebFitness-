@@ -1,0 +1,85 @@
+*         body {
+    font-family: 'Impact', sans-serif;
+    background-image: url('img/maqueta-transp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+h2 {
+
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 50px;
+}
+
+.slider-frame {
+
+    width: 482px;
+    height: 192px;
+    margin:2px auto 0;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px #010167bb;
+}
+.slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 700%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+    width: 100%;
+    list-style: none;
+    
+}
+
+.slider-frame img {
+    width: 100%;
+
+}
+
+@keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    20% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+
+    40% {margin-left: -200%;}
+    60% {margin-left: -200%;}
+
+    60% {margin-left: -300%;}
+    80% {margin-left: -300%;}
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.brands {
+    text-align: center;
+    margin: 20px 0;
+}
+.brands img {
+    width: 73px;
+    height: 73px;
+    margin: 0 10px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
